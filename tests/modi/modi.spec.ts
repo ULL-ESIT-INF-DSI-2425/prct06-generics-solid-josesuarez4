@@ -10,11 +10,14 @@ describe ("Pruebas ArithmeticableCollection", () => {
   let num5: ComplexNumber;
 
   beforeAll ( () => {
-    num1 = new ComplexNumber(2, 5);
+    num1 = new ComplexNumber(0, 3);
     num2 = new ComplexNumber(-3, 7);
     num3 = new ComplexNumber(1, 9);
     num4 = new ComplexNumber(-5, -6);
     num5 = new ComplexNumber(2, 27);
+    num1.real = 2;
+    num1.imaginario = 5;
+
 
     numComplejos = new ArithmeticableCollection<ComplexNumber>([]);
     numComplejos.addArithmeticable(num1);
@@ -63,6 +66,13 @@ describe ("Pruebas ArithmeticableCollection", () => {
     expect(resultado1.real).toBeCloseTo(2);
     expect(resultado1.imaginario).toBeCloseTo(3);
 
+  });
+  test("getter y setter: ", () => {
+    expect(num1.real).toBe(2);
+    expect(num1.imaginario).toBe(5);
+    expect(num2.real).toBe(-3);
+    expect(num2.imaginario).toBe(7);
+    expect(numComplejos.getNumberOfArithmeticables()).toBe(5);
   });
   
 
