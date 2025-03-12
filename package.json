@@ -12,7 +12,8 @@
     "e3": "tsc-watch --onSuccess \"node dist/ejercicio3/ficheros.js\"",
     "e4": "tsc-watch --onSuccess \"node dist/ejercicio4/impresoras.js\"",
     "e5": "tsc-watch --onSuccess \"node dist/ejercicio5/mensajeria.js\"",
-    "e6": "tsc-watch --onSuccess \"node dist/ejercicio6/birds.js\""
+    "e6": "tsc-watch --onSuccess \"node dist/ejercicio6/birds.js\"",
+    "e7": "tsc-watch --onSuccess \"node dist/ejercicio6/birds.js\""
   },
   "keywords": [],
   "author": "",
