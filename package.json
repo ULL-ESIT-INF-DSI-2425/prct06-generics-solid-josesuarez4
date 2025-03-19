@@ -13,8 +13,11 @@
     "e4": "tsc-watch --onSuccess \"node dist/ejercicio4/impresoras.js\"",
     "e5": "tsc-watch --onSuccess \"node dist/ejercicio5/mensajeria.js\"",
     "e6": "tsc-watch --onSuccess \"node dist/ejercicio6/birds.js\"",
-    "e7": "tsc-watch --onSuccess \"node dist/ejercicio6/birds.js\""
+    "e7": "tsc-watch --onSuccess \"node dist/p7/cliente.js\"",
+    "m2": "tsc-watch --onSuccess \"node dist/modi2/modiRational.js\""
   },
+  "type":"commonjs",
+  "module":"Node16",
   "keywords": [],
   "author": "",
   "license": "ISC",
